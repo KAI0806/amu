@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+#about{
+    margin: 6.58rem 0 28.6rem;
+    position: relative;
+}
+
+#about::before{
+    content: "about us";
+    position: absolute;
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    color: #0D1E5F;
+    transform: rotateZ(90deg);
+    bottom: 0;
+    left: 1rem;
+}
+
+#about h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 11.77rem;
+}
+
+#about h1 img{
+    width: 35.1rem;
+}
+
+#about .wrap{
+    width: 86.82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .wrap .left{
+    width: 31.55%;
+}
+
+#about .wrap .left h2{
+    margin-bottom: 3rem;
+}
+
+#about .wrap .right{
+    width: 75.7rem;
+    height: 51.2rem;
+    background: url("../img/about_img.jpg")no-repeat center center/cover;
+    position: relative;
+}
+
+#about .wrap .right::before{
+    content: "";
+    position: absolute;
+    width: 54.3rem;
+    height: 27.95rem;
+    top: 30rem;
+    left: -30.7rem;
+    filter: drop-shadow(4rem 4rem #E0E1E5);
+    background: url("../img/about_symbol.svg")no-repeat center center/contain;
+}
+
+/* service */
+
+/* company */
+#company{
+    margin-bottom: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#company::before{
+    position: absolute;
+    content: "company profile";
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    color: #0D1E5F;
+    transform: rotateZ(90deg);
+    top: 7rem;
+    left: -3rem;
+}
+
+#company > img{
+    width: 82.41rem;
+    margin-bottom: 1.96rem;
+    filter: drop-shadow(15rem 5.5rem #E0E1E5);
+}
+
+#company .title{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 7.5rem;
+}
+
+#company .title img{
+    width: 28.8rem;
+    margin-left: 24.5rem;
+}
+
+#company .wrap{
+    width: 42.95%;
+}
+
+#company .wrap div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: solid .1rem #707070;
+    margin-bottom: 2rem;
+}
+
+#company .wrap div h3{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 18.6rem;
+    color: #070707;
+    line-height: 2.5;
+}
+
+#company .wrap div p{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+/* contact */
+
+#contact{
+    margin-bottom: 10.7rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#contact .left{
+    position: relative;
+}
+
+#contact .left h2{
+    margin-bottom: 2.1rem;
+}
+
+#contact .left img{
+    width: 28.4rem;
+}
+
+#contact .right{
+    width: 30%;
+    margin-left: 9.4rem;
+}
+
+#contact .right div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+}
+
+#contact .right div a{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #070707;
+}
