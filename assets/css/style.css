@@ -10,7 +10,7 @@
     position: absolute;
     font-size: 2.1rem;
     font-weight: bold;
-    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    font-family: Arial, Helvetica, sans-serif;
     color: #0D1E5F;
     transform: rotateZ(90deg);
     bottom: 0;
@@ -64,6 +64,167 @@
 }
 
 /* service */
+#service{
+    margin-bottom: 22rem;
+    position: relative;
+}
+
+#service::before{
+    content: "our service";
+    position: absolute;
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D1E5F;
+    transform: rotateZ(90deg);
+    top: 50%;
+    left: 0;
+
+}
+
+#service .slider{
+    width: 64.9%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#service .slider .slick-list{
+    overflow: visible;
+}
+
+#service .slider .slide{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+#service .slider .slide::before{
+    position: absolute;
+    font-size: 19.2rem;
+    color: #131D46;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 0;
+    left: -15.7rem;
+    transform: translateY(25%);
+}
+
+#service .slider .slide01::before{
+    content: "1";
+}
+
+#service .slider .slide02::before{
+    content: "2";
+}
+
+#service .slider .slide03::before{
+    content: "3";
+}
+
+.slick-arrow{
+    background: none;
+    border: none;
+}
+
+.slick-arrow:before{
+    content:"";
+    position: absolute;
+    width: 5.59rem;
+    height: 3rem;
+    bottom: -5rem;
+    left: 35%;
+    cursor: pointer;
+}
+
+.slick-next:before{
+    background: url("../img/slide_next.svg")no-repeat center center/contain;
+    transform: translateX(100%);
+}
+
+.slick-prev:before{
+    background: url("../img/slide_prev.svg")no-repeat center center/contain;
+    transform: translateX(-100%);
+}
+
+.slick-dots{
+    border-left: solid .25rem #131D46;
+    padding-left: 1.45rem;
+    position: absolute;
+    top: 0;
+    left: -50rem;
+}
+
+.slick-dots li button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button:before{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #CBCBCB;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    transition: all .2s ease-in-out;
+}
+
+.slick-dots li:nth-of-type(1) button:before{
+    content: "1";
+}
+.slick-dots li:nth-of-type(2) button:before{
+    content: "2";
+}
+.slick-dots li:nth-of-type(3) button:before{
+    content: "3";
+}
+
+.slick-dots li button:after{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #CBCBCB;
+    vertical-align: text-bottom;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    transition: all .2s ease-in-out;
+}
+
+.slick-dots li:nth-of-type(1) button:after{
+    content: "　アパレルブランドOEM&ODM";
+}
+.slick-dots li:nth-of-type(2) button:after{
+    content: "　化粧品OEM&ODM";
+}
+.slick-dots li:nth-of-type(3) button:after{
+    content: "　インフルエンサー/映像";
+}
+
+.slick-dots .slick-active button::before, .slick-dots .slick-active button::after{
+    color: #131D46;
+    transition: all .3s ease-in-out;
+}
+
+#service .slider .slide .left{
+    margin-right: 7.5rem;
+}
+
+#service .slider .slide .left h2{
+    margin-bottom: 2.6rem;
+}
+
+#service .slider .slide .left img{
+    width: 45rem;
+}
+
+#service .slider .slide .right{
+    width: 51.95rem;
+}
+
+#service .slider .slide .right img{
+    width: 100%;
+    margin-bottom: 6.74rem;
+}
 
 /* company */
 #company{
@@ -80,7 +241,7 @@
     content: "company profile";
     font-size: 2.1rem;
     font-weight: bold;
-    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    font-family: Arial, Helvetica, sans-serif;
     color: #0D1E5F;
     transform: rotateZ(90deg);
     top: 7rem;
@@ -137,15 +298,37 @@
 /* contact */
 
 #contact{
-    margin-bottom: 10.7rem;
+    margin-bottom: 11.5rem;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
+#contact::before{
+    position: absolute;
+    content: "contact";
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D1E5F;
+    transform: rotateZ(90deg);
+    left: 2rem;
+    top: 2rem;
+}
+
 #contact .left{
     position: relative;
+}
+
+#contact .left::before{
+    position: absolute;
+    content: "";
+    width: 19.3rem;
+    height: 55.7rem;
+    top: 0;
+    right: -16.34rem;
+    background: url("../img/contact_symbol.svg")no-repeat center center/contain;
 }
 
 #contact .left h2{
@@ -173,4 +356,47 @@
     font-size: 4rem;
     font-weight: bold;
     color: #070707;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #070707;
+    display: block;
+    width: 65.4rem;
+    padding: 3rem 0;
+    border: solid .15rem #707070;
+    text-align: center;
+    border-radius: 5rem;
+    margin-bottom: 10.7rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    transition: all .2s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact::before{
+    position: absolute;
+    content: "";
+    width: 8.152rem;
+    height: 1.356rem;
+    top: 50%;
+    right: 6.62rem;
+    transform: translateY(-50%);
+    background: url("../img/arrow.svg")no-repeat center center/contain;
+    transition: all .3s ease-in-out;
+}
+
+.contact:hover{
+    background: #070707;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.contact:hover::before{
+    right: 3rem;
+    transition: all .3s ease-in-out;
+    background: url("../img/arrow_white.svg")no-repeat center center/contain;
 }
