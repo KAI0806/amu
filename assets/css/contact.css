@@ -126,7 +126,6 @@ main h2{
     height: 5rem;
     top: 0;
     left: 50%;
-    transform: translate(-50, -50%);
     background: #101010;
 }
 
@@ -148,5 +147,90 @@ main h2{
 }
 
 @media screen and (max-width: 767px){
+    main h2{
+        margin: 4.45rem 5.3rem 3.23rem auto;
+        font-size: 1.5rem;
+        border-bottom: solid .3rem #131D46;
+    }
 
+    .form::before{
+        width: 8.5rem;
+        height: 13.7rem;
+        left: 13.87%;
+        transform: translateY(-1.5rem);
+        background: url("../img/contact_sp_img.jpg")no-repeat center center/cover;
+    }
+
+    .form .title{
+        position: relative;
+        flex-direction: column;
+        width: 72.27%;
+        justify-content: flex-end;
+        align-items: flex-end;
+        transform: none;
+        left: unset;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .form .title img{
+        width: 16.224rem;
+        margin-right: auto;
+        margin-bottom: 1.8rem;
+    }
+
+    .form .title p{
+        font-size: 1.2rem;
+        background: white;
+        padding: .8rem 0 0 .7rem;
+        letter-spacing: .1rem;
+    }
+
+    .formrun{
+        width: 72.27%;
+        padding: 0;
+    }
+
+    .formrun .wrap{
+        width: 100%;
+    }
+
+    .formrun .wrap > div{
+        margin-bottom: 1.1rem;
+    }
+
+    .formrun .wrap label{
+        font-size: 1.2rem;
+        margin-bottom: .85rem;
+    }
+
+    .formrun .wrap input, .formrun .wrap textarea{
+        font-size: 1.2rem;
+        padding: 1.15rem 1.2rem;
+        width: calc(100% - 2.4rem);
+    }
+
+    .formrun .wrap input::placeholder, .formrun .wrap textarea::placeholder{
+        font-size: 1.2rem;
+    }
+
+    .formrun .wrap textarea{
+        height: 15.9rem;
+    }
+
+    .formrun .wrap button{
+        margin: 1.35rem 0 2.65rem;
+        font-size: 1.2rem;
+        padding: 1.35rem 0;
+        border: solid .05rem #070707;
+    }
+
+    .formrun .wrap .link a{
+        font-size: 1.4rem;
+    }
+
+    .formrun .wrap .link::before{
+        width: .05rem;
+        height: 2.1rem;
+    }
 }

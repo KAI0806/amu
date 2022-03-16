@@ -370,11 +370,11 @@ footer p{
     }
 
     .line_1{
-        transform: translate(1rem, .75rem) rotate(-45deg);
+        transform: translate(1rem, 1.7rem) rotate(-45deg);
     }
 
     .line_3 {
-        transform: translate(1rem, -.75rem) rotate(45deg);
+        transform: translate(1rem, .2rem) rotate(45deg);
     }
 
     #nav .nav_wrap{
@@ -384,11 +384,11 @@ footer p{
 
     #nav .nav_wrap img{
         width: 16.224rem;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
 
     #nav .nav_wrap ul li{
-        margin-bottom: 5.2rem;
+        margin-bottom: 4.2rem;
     }
 
     #nav .nav_wrap ul li a{
