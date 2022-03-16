@@ -7,10 +7,31 @@ main h2{
     width: fit-content;
 }
 
+.form{
+    position: relative;
+}
+
+
+.form::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 35.7rem;
+    width: 17.6rem;
+    height: 26.7rem;
+    transform: translateY(-50%);
+    background: url("../img/contact_img.jpg")no-repeat center center/contain;
+}
+
 .form .title{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    z-index: 10;
 }
 
 .form .title img{
@@ -28,6 +49,7 @@ main h2{
     margin: auto;
     background: white;
     padding: 20.6rem 0 5.3rem;
+    position: relative;
 }
 
 .formrun .wrap{
@@ -49,6 +71,74 @@ main h2{
     margin-bottom: 1.67rem;
 }
 
-.formrun .wrap input{
+.formrun .wrap input, .formrun .wrap textarea{
     font-size: 2rem;
+    padding: 2.18rem 2.8rem;
+    width: calc(100% - 5.6rem);
+    border-radius: 0;
+    border: solid .05rem #707070;
+}
+
+.formrun .wrap textarea{
+    height: 37.54rem;
+}
+
+.formrun .wrap input::placeholder, .formrun .wrap textarea::placeholder{
+    color: #B1B1B1;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+}
+
+.formrun .wrap button{
+    width: 100%;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070707;
+    padding: 3.1rem 0;
+    background: white;
+    border-radius: 5rem;
+    border: solid .15rem #707070;
+    margin: 1.6rem 0 6rem;
+    transition: all .2s ease-in-out;
+}
+
+.formrun .wrap button:hover{
+    background: #070707;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.formrun .wrap .link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    position: relative;
+}
+
+.formrun .wrap .link::before{
+    content: "";
+    position: absolute;
+    width: .15rem;
+    height: 5rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50, -50%);
+    background: #101010;
+}
+
+.formrun .wrap .link a{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #101010;
+    transition: all .2s ease-in-out;
+}
+
+.formrun .wrap .link a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
