@@ -311,6 +311,14 @@ footer p{
         font-size: 2.667vw;
     }
 
+    h2{
+        font-size: 2.8rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
     .pc_only{
         display: none !important;
     }
@@ -335,4 +343,93 @@ footer p{
         display: inline;
     }
 
+    header{
+        padding-top: 0;
+        padding-left: 1.25rem;
+    }
+    
+    #hamburger {
+        width: 4.9rem;
+        height: 4rem;
+    }
+
+    .inner_line{
+        width: 1.4rem;
+    }
+
+    .inner_line::before, .inner_line:after{
+        width: 1.4rem;
+    }
+
+    .inner_line::before{
+        left: -2rem;
+    }
+
+    .inner_line::after{
+        right: -2rem;
+    }
+
+    .line_1{
+        transform: translate(1rem, .75rem) rotate(-45deg);
+    }
+
+    .line_3 {
+        transform: translate(1rem, -.75rem) rotate(45deg);
+    }
+
+    #nav .nav_wrap{
+        width: 85.33%;
+        margin: 4.85rem auto;
+    }
+
+    #nav .nav_wrap img{
+        width: 16.224rem;
+        margin-bottom: 10rem;
+    }
+
+    #nav .nav_wrap ul li{
+        margin-bottom: 5.2rem;
+    }
+
+    #nav .nav_wrap ul li a{
+        font-size: 2.7rem;
+    }
+
+    #nav .nav_wrap ul li::before{
+        font-size: 1.2rem;
+        left: -4.5rem;
+    }
+
+    #nav .nav_wrap .cta{
+        padding: 1.25rem 0;
+        font-size: 1.2rem;
+        width: 90%;
+        margin: 0 auto 5.15rem;
+    }
+
+    #nav .nav_wrap .cta::before{
+        width: 3.6rem;
+        height: .6rem;
+        right: 2.5rem;
+    }
+
+    #nav .nav_wrap .link a{
+        font-size: 1.4rem;
+    }
+
+    #nav .nav_wrap .link a:first-child{
+        margin-right: 1.35rem;
+        padding-right: 1.35rem;
+        border-right: solid 0.05rem white;
+    }
+
+    footer{
+        background: none;
+        padding: .9rem 0;
+    }
+
+    footer p{
+        color: #070707;
+        margin-right: 1.2rem;
+    }
 }

@@ -12,7 +12,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body>
+<body ontouchstart="">
     <header>
         <nav id="nav">
             <div class="nav_wrap">
@@ -70,7 +70,7 @@
                         <img src="assets/img/slide001.jpg" alt="アパレルブランドOEM&ODM">
                     </div>
                     <div class="right">
-                        <img src="assets/img/service_symbol.svg" alt="アパレルブランドOEM&ODM">
+                        <img class="pc_only" src="assets/img/service_symbol.svg" alt="アパレルブランドOEM&ODM">
                         <p>サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章。</p>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         <img src="assets/img/slide002.jpg" alt="　化粧品OEM&ODM">
                     </div>
                     <div class="right">
-                        <img src="assets/img/service_symbol.svg" alt="　化粧品OEM&ODM">
+                        <img class="pc_only" src="assets/img/service_symbol.svg" alt="　化粧品OEM&ODM">
                         <p>サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章。</p>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                         <img src="assets/img/slide003.jpg" alt="インフルエンサー/映像">
                     </div>
                     <div class="right">
-                        <img src="assets/img/service_symbol.svg" alt="インフルエンサー/映像">
+                        <img class="pc_only" src="assets/img/service_symbol.svg" alt="インフルエンサー/映像">
                         <p>サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章、サンプルテキスト、見本の文章。</p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
         </section>
 
         <section id="company">
-            <img src="assets/img/company_symbol.svg" alt="A.M.U COMPANY DETAILES">
+            <img class="pc_only" src="assets/img/company_symbol.svg" alt="A.M.U COMPANY DETAILES">
             <div class="title">
                 <h2>
                     A.M.U
@@ -153,7 +153,7 @@
                 <div>
                     <h3>事業内容</h3>
                     <p>
-                        アパレルブランドOEM&DOM　　化粧品OEM&DOM
+                        アパレルブランドOEM&DOM　　<br class="sp_only"/>化粧品OEM&DOM
                         <br/>インフルエンサー/映像事業
                     </p>
                 </div>
@@ -168,7 +168,8 @@
                     <br/>us
                 </h2>
                 <picture>
-                    <img src="assets/img/contact_img.jpg" alt="お問い合わせ">
+                    <source srcset="assets/img/contact_img.jpg" media="(min-width: 767px)" />
+                    <img src="assets/img/contact_sp_img.jpg" alt="お問い合わせ">
                 </picture>
             </div>
             

@@ -142,3 +142,11 @@ main h2{
     opacity: .5;
     transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 767px){
+
+}
