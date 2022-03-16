@@ -224,6 +224,7 @@
 #service .slider .slide .right img{
     width: 100%;
     margin-bottom: 6.74rem;
+    filter: drop-shadow(2.4rem 2.4rem #E0E1E5);
 }
 
 /* company */

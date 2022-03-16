@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+main h2{
+    font-size: 4rem;
+    margin: 10.25rem 24rem 24rem auto;
+    border-bottom: solid .4rem #131D46;
+    width: fit-content;
+}
+
+.form .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .title img{
+    width: 42rem;
+    margin-right: 9.8rem;
+}
+
+.form .title p{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.formrun{
+    width: 52.81%;
+    margin: auto;
+    background: white;
+    padding: 20.6rem 0 5.3rem;
+}
+
+.formrun .wrap{
+    width: 86.686%;
+    margin: auto;
+}
+
+.formrun .wrap > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.formrun .wrap label{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.67rem;
+}
+
+.formrun .wrap input{
+    font-size: 2rem;
+}
