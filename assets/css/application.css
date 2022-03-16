@@ -303,6 +303,9 @@ footer p{
 }
 
 @media screen and (max-width: 1024px){
+    #nav .nav_wrap ul li::before{
+        left: -8rem;
+    }
 
 }
 
