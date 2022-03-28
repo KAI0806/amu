@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #about{
-    margin: 6.58rem 0 28.6rem;
+    margin: 6.58rem 0 34.8rem;
     position: relative;
 }
 
@@ -65,7 +65,7 @@
 
 /* service */
 #service{
-    margin-bottom: 22rem;
+    margin-bottom: 28.6rem;
     position: relative;
 }
 
@@ -106,7 +106,7 @@
     color: #131D46;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    bottom: 0;
+    bottom: 1rem;
     left: -15.7rem;
     transform: translateY(25%);
 }
@@ -121,6 +121,10 @@
 
 #service .slider .slide03::before{
     content: "3";
+}
+
+#service .slider .slide04::before{
+    content: "4";
 }
 
 .slick-arrow{
@@ -180,6 +184,9 @@
 .slick-dots li:nth-of-type(3) button:before{
     content: "3";
 }
+.slick-dots li:nth-of-type(4) button:before{
+    content: "4";
+}
 
 .slick-dots li button:after{
     font-size: 2rem;
@@ -197,7 +204,10 @@
     content: "　化粧品OEM&ODM";
 }
 .slick-dots li:nth-of-type(3) button:after{
-    content: "　インフルエンサー/映像";
+    content: "　インフルエンサー事業";
+}
+.slick-dots li:nth-of-type(4) button:after{
+    content: "　映像制作事業";
 }
 
 .slick-dots .slick-active button::before, .slick-dots .slick-active button::after{
@@ -221,15 +231,40 @@
     width: 51.95rem;
 }
 
-#service .slider .slide .right img{
+#service .slider .slide .right > img{
     width: 100%;
     margin-bottom: 6.74rem;
     filter: drop-shadow(2.4rem 2.4rem #E0E1E5);
 }
 
+#service .slider .slide .right a{
+    font-size: 1.33rem;
+    font-weight: bold;
+    color: #0D1E5F;
+    display: none;
+    margin-top: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+#service .slider .slide04 .right a{
+    display: block;
+}
+
+#service .slider .slide .right a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+#service .slider .slide .right a > img{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 1.13rem;
+    width: 2.475rem;
+}
+
 /* company */
 #company{
-    margin-bottom: 24rem;
+    margin-bottom: 11.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,9 +383,10 @@
 #contact .right div{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin-bottom: 1.8rem;
+    margin-left: 25%
 }
 
 #contact .right div a{
@@ -408,7 +444,7 @@
 
 @media screen and (max-width: 767px){
     #about{
-        margin: 4.85rem 0 5.45rem;
+        margin: 4.85rem 0 10.4rem;
     }
 
     #about::before{
@@ -476,18 +512,18 @@
     #service::after{
         content: "";
         position: absolute;
-        width: 18.51rem;
-        height: 6.95rem;
+        width: 18.9rem;
+        height: 8.4rem;
         top: 4.5rem;
         right: 0;
-        transform: translateX(40%);
-        background: url("../img/company_symbol.svg")no-repeat center center/contain;
+        transform: translateX(30%);
+        background: url("../img/service_symbol_sp.svg")no-repeat center center/contain;
     }
 
     #service .slider{
         width: 85.33%;
         margin: auto;
-        padding-top: 9.5rem;
+        padding-top: 10.5rem;
     }
     
     #service .slider .slide{
@@ -545,15 +581,14 @@
         width: 100%;
     }
     
-    #service .slider .slide .right img{
+    #service .slider .slide .right > img{
         width: 100%;
         margin-bottom: 6.74rem;
-        filter: drop-shadow(2.4rem 2.4rem #E0E1E5);
     }
 
     /* company */
     #company{
-        margin-bottom: 5.85rem;
+        margin-bottom: 11.95rem;
     }
 
     #company::before{
@@ -565,7 +600,7 @@
         width: 85.33%;
         align-items: center;
         position: relative;
-        margin-bottom: 11.85rem;
+        margin-bottom: 9.85rem;
     }
 
     #company .title::before{
@@ -660,6 +695,7 @@
         margin-top: 3.4rem;
         margin-bottom: auto;
         align-items: flex-start;
+        margin-left: 0;
     }
 
     #contact .right div a{

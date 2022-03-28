@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189" height="84.001" viewBox="0 0 189 84.001">
+  <defs>
+    <filter id="前面オブジェクトで型抜き_2" x="0" y="0" width="189" height="84.001" filterUnits="userSpaceOnUse">
+      <feOffset dx="-21" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#e0e1e5"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#前面オブジェクトで型抜き_2)">
+    <path id="前面オブジェクトで型抜き_2-2" data-name="前面オブジェクトで型抜き 2" d="M118.871,69H38.791V.163L12.118,27.05-14.48.163V69H-30V0H138V69h-19.13ZM65.6.163V69L92.2,42.113,118.872,69V.163h-3.736v59.8l-35.414-35.7L77.107,26.9,89.659,39.477,69.337,59.963V.163ZM-10.744,69V9.2L9.578,29.687-2.975,42.263-.359,44.9,35.053,9.2l0,59.8h-45.8Z" transform="translate(51)" fill="#131d46"/>
+  </g>
+</svg>
