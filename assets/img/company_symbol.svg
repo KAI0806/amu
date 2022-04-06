@@ -1,3 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="749.264" height="304.328" viewBox="0 0 749.264 304.328">
-  <path id="前面オブジェクトで型抜き_3" data-name="前面オブジェクトで型抜き 3" d="M724.264,304.326h0l-85.556,0V45.087H429.071V304.323H-25V0L42.633,0l0,259.239H252.27V0H724.264V304.326Zm-108.1,0H451.611V59.783H616.162v244.54ZM229.728,244.544h0l-164.548,0V0L229.728,0V244.544Z" transform="translate(25 0.002)" fill="#131d46"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="366" height="390.95" viewBox="0 0 366 390.95">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0d1e5f"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="1" stop-color="#0d1e5f"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_1451" data-name="グループ 1451" transform="translate(1672 -3128.05)">
+    <g id="グループ_1431" data-name="グループ 1431" transform="translate(-2466.529 2974.503)">
+      <path id="パス_96" data-name="パス 96" d="M313.721,55.62V286.181c0,126.319,6.614,99.3-157.828,99.3-86.235,0-125.077,4.086-143.226-6.271C-3.542,370,.265,346.786.265,292.876c0-109.365.805-237,0-237.256-1.264-.395,111.425,0,111.425,0v197.09c-.235,36.827,1.683,51.555,44.2,51.555s46.876-13.746,46.171-47.13V55.62Z" transform="translate(794.653 98.103)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="長方形_1292" data-name="長方形 1292" width="29" height="29" transform="translate(-1335 3490)" fill="url(#linear-gradient-2)"/>
+  </g>
 </svg>

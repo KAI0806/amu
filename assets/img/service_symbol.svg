@@ -1,3 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="588.998" height="279.999" viewBox="0 0 588.998 279.999">
-  <path id="中マド_12" data-name="中マド 12" d="M574.346,280H310V0H622V280H574.346ZM358.093.661V280L466.069,170.891,574.348,280V.661H559.182V243.323L415.418,98.46l-10.616,10.7,50.954,51.038-82.5,83.128V.661ZM249.256,280H234.091V37.336L90.326,182.2,79.71,171.5l50.955-51.038-82.5-83.129V280H33V.661L140.978,109.768,249.256.661V280Z" transform="translate(-33.002)" fill="#131d46"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="342" viewBox="0 0 335 342">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1304" data-name="長方形 1304" width="335" height="342" transform="translate(-1629 2323)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.268" y1="0.355" x2="0.927" y2="0.861" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="1" stop-color="#0d1e5f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <filter id="長方形_1286" x="-7.927" y="-5.071" width="100.434" height="321.374" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.575" y1="0.972" x2="0.5" y2="-0.073" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="マスクグループ_10" data-name="マスクグループ 10" transform="translate(1629 -2323)" clip-path="url(#clip-path)">
+    <g id="グループ_1449" data-name="グループ 1449">
+      <g id="グループ_1442" data-name="グループ 1442" transform="translate(-2770 1100.93)">
+        <g id="グループ_1435" data-name="グループ 1435" transform="translate(-82 -83.343)">
+          <path id="パス_102" data-name="パス 102" d="M162.2,0,351.7,259.589,333.17,287.06l-20.891,30.972L0,240.368l45.921-68.081,127.767,7.2L116.071,68.4Z" transform="matrix(0.559, 0.829, -0.829, 0.559, 1423.474, 1171.942)" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, 1223, 1305.41)" filter="url(#長方形_1286)">
+            <rect id="長方形_1286-2" data-name="長方形 1286" width="82.434" height="303.374" transform="translate(1.07 0.93)" fill="url(#linear-gradient-2)"/>
+          </g>
+          <rect id="長方形_1287" data-name="長方形 1287" width="82.434" height="303.374" transform="translate(1431.581 1306.342)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+      <rect id="長方形_1290" data-name="長方形 1290" width="29" height="29" transform="translate(-1324 2635.93)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
 </svg>

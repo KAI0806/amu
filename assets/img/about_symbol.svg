@@ -1,3 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="543.002" height="279.501" viewBox="0 0 543.002 279.501">
-  <path id="中マド_5" data-name="中マド 5" d="M543.006,279.5h-264.1L126.567,126.031h39.171V110.957H111.5L.01,0,264.094,0,416.449,153.469H377.275v15.077h54.238L543,279.495Zm-284.458,0H15.062l.008-153.469h89.8L258.541,279.495ZM.01,279.5H0v0L.01,0Zm527.928-36.181-.006-.006L453.21,168.546h74.729v74.774Zm0-89.847h0l-89.793,0L284.466,0H527.939v153.47ZM89.8,110.957H15.07l0-74.773L89.8,110.951Z" transform="translate(-0.003 0.001)" fill="#131d46"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="363.906" height="347.072" viewBox="0 0 363.906 347.072">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="1.111" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0d1e5f"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="1" stop-color="#0d1e5f"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_1447" data-name="グループ 1447" transform="translate(1672 -1816.828)">
+    <g id="グループ_1439" data-name="グループ 1439" transform="translate(-2496.094 1156.9)">
+      <g id="グループ_1437" data-name="グループ 1437" transform="translate(5006.329 -263.501)">
+        <g id="グループ_1427" data-name="グループ 1427" transform="translate(-4182.235 784.337)">
+          <g id="グループ_1426" data-name="グループ 1426" transform="translate(0 139.092)">
+            <path id="パス_92" data-name="パス 92" d="M-357.818,1489.669v307.545H-538.874Z" transform="translate(538.874 -1489.669)" fill="url(#linear-gradient)"/>
+            <rect id="長方形_1272" data-name="長方形 1272" width="143.521" height="307.545" transform="translate(181.056 0)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="長方形_1288" data-name="長方形 1288" width="29" height="29" transform="translate(-1337.094 2134.9)" fill="url(#linear-gradient-2)"/>
+  </g>
 </svg>

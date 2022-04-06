@@ -48,24 +48,24 @@
 #about .wrap .right{
     width: 75.7rem;
     height: 51.2rem;
-    background: url("../img/about_img.jpg")no-repeat center center/cover;
+    background: url("../img/about_img.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 #about .wrap .right::before{
     content: "";
     position: absolute;
-    width: 54.3rem;
-    height: 27.95rem;
+    width: 36.39rem;
+    height: 34.7rem;
     top: 30rem;
     left: -30.7rem;
-    filter: drop-shadow(4rem 4rem #E0E1E5);
-    background: url("../img/about_symbol.svg")no-repeat center center/contain;
+    filter: drop-shadow(9.16rem 6.48rem #E0E1E5);
+    background: url("../img/about_symbol.svg") no-repeat center center/contain;
 }
 
 /* service */
 #service{
-    margin-bottom: 28.6rem;
+    margin-bottom: 20rem;
     position: relative;
 }
 
@@ -143,12 +143,12 @@
 }
 
 .slick-next:before{
-    background: url("../img/slide_next.svg")no-repeat center center/contain;
+    background: url("../img/slide_next.svg") no-repeat center center/contain;
     transform: translateX(100%);
 }
 
 .slick-prev:before{
-    background: url("../img/slide_prev.svg")no-repeat center center/contain;
+    background: url("../img/slide_prev.svg") no-repeat center center/contain;
     transform: translateX(-100%);
 }
 
@@ -234,7 +234,7 @@
 #service .slider .slide .right > img{
     width: 100%;
     margin-bottom: 6.74rem;
-    filter: drop-shadow(2.4rem 2.4rem #E0E1E5);
+    filter: drop-shadow(14.2em 4.5rem #E0E1E5);
 }
 
 #service .slider .slide .right a{
@@ -280,14 +280,16 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #0D1E5F;
     transform: rotateZ(90deg);
-    top: 7rem;
+    top: 20rem;
     left: -3rem;
 }
 
 #company > img{
-    width: 82.41rem;
+    width: 34.8rem;
     margin-bottom: 1.96rem;
-    filter: drop-shadow(15rem 5.5rem #E0E1E5);
+    filter: drop-shadow(16.1rem 3.8rem #E0E1E5);
+    transform: translate(50%, 40%);
+    z-index: 10;
 }
 
 #company .title{
@@ -360,11 +362,11 @@
 #contact .left::before{
     position: absolute;
     content: "";
-    width: 19.3rem;
-    height: 55.7rem;
+    width: 19.6rem;
+    height: 51.1rem;
     top: 0;
     right: -16.34rem;
-    background: url("../img/contact_symbol.svg")no-repeat center center/contain;
+    background: url("../img/contact_symbol.svg") no-repeat center center/contain;
 }
 
 #contact .left h2{
@@ -422,7 +424,7 @@
     top: 50%;
     right: 6.62rem;
     transform: translateY(-50%);
-    background: url("../img/arrow.svg")no-repeat center center/contain;
+    background: url("../img/arrow.svg") no-repeat center center/contain;
     transition: all .3s ease-in-out;
 }
 
@@ -435,7 +437,7 @@
 .contact:hover::before{
     right: 3rem;
     transition: all .3s ease-in-out;
-    background: url("../img/arrow_white.svg")no-repeat center center/contain;
+    background: url("../img/arrow_white.svg") no-repeat center center/contain;
 }
 
 @media screen and (max-width: 1024px){
@@ -474,14 +476,14 @@
     }
 
     #about .wrap .right::before{
-        width: 20.9rem;
-        height: 10.75rem;
+        width: 15.8rem;
+        height: 14.83rem;
         top: unset;
         bottom: 0;
         left: unset;
         right: -2rem;
         transform: translateY(50%);
-        filter: drop-shadow(2.4rem 2.4rem #E0E1E5);
+        filter: drop-shadow(6.05rem 3.86rem #E0E1E5);
     }
 
     #about .wrap .left{
@@ -497,6 +499,7 @@
 
     #service{
         margin-bottom: 8.6rem;
+        position: relative;
     }
 
     #service::before{
@@ -512,12 +515,13 @@
     #service::after{
         content: "";
         position: absolute;
-        width: 18.9rem;
-        height: 8.4rem;
-        top: 4.5rem;
-        right: 0;
-        transform: translateX(30%);
-        background: url("../img/service_symbol_sp.svg")no-repeat center center/contain;
+        width: 10.3rem;
+        height: 10.7rem;
+        top: 3.5rem;
+        right: 2rem;
+        filter: drop-shadow(4.5rem 2rem #E0E1E5);
+        background: url("../img/service_symbol.svg") no-repeat center center/contain;
+        z-index: 10;
     }
 
     #service .slider{
@@ -606,13 +610,14 @@
     #company .title::before{
         position: absolute;
         content: "";
-        width: 27.16rem;
-        height: 10rem;
+        width: 13.3rem;
+        height: 13.9rem;
         bottom: 0;
         left: 50%;
-        filter: drop-shadow( -3.5rem 2.4rem #E0E1E5);
-        transform: translate(-30%, 50%);
-        background: url("../img/company_symbol.svg")no-repeat center center/contain;
+        filter: drop-shadow( 5.9rem 2rem #E0E1E5);
+        transform: translate(-40%, 65%);
+        background: url("../img/company_symbol.svg") no-repeat center center/contain;
+        z-index: 10;
     }
 
     #company .title img {
@@ -664,11 +669,12 @@
 
     #contact .left::before{
         width: 10rem;
-        height: 27.16rem;
+        height: 28.8rem;
         right: 0;
         top: unset;
         bottom: 0;
         transform: translate(25%, -10%);
+        z-index: 10;
     }
 
     #contact .left h2{
