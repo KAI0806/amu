@@ -62,14 +62,14 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 2rem;
-    padding-left: 4rem;
+    padding-top: 5.15rem;
+    padding-left: 5.9rem;
     z-index: 10000;
 }
 
 #hamburger {
-    width: 11.2rem;
-    height: 9rem;
+    width: 7.2em;
+    height: 4.6rem;
     transition: all 1s ease-out;
     position: relative;
     z-index: 1;
@@ -81,7 +81,7 @@ header{
     right: 50%;
     transform: translate(50%, 50%);
     bottom: 50%;
-    width: 7.2rem;
+    width: 100%;
     height: .1rem;
     background: #070707;
     transition: all 1s ease-out;
@@ -105,7 +105,7 @@ header{
 } */
 
 #line1 {
-    top: 30%;
+    top: 0%;
 }
 
 #line2 {
@@ -113,7 +113,7 @@ header{
 }
 
 #line3 {
-    bottom: 30%;
+    bottom: 0%;
 }
 
 .in{
@@ -133,7 +133,7 @@ header{
 }
 
 .line_1 {
-    transform: translate(3rem, 1.75rem) rotate(-45deg);
+    transform: translate(3rem, 2.2rem) rotate(-45deg);
     top: 0;
 }
 
@@ -142,7 +142,7 @@ header{
 }
 
 .line_3 {
-    transform: translate(3rem, -1.75rem) rotate(45deg);
+    transform: translate(3rem, -2.2rem) rotate(45deg);
     bottom: 0;
 }
 
@@ -257,12 +257,12 @@ header{
     top: 50%;
     right: 4rem;
     transform: translateY(-50%);
-    background: url("../img/arrow.svg")no-repeat center center/contain;
+    background: url("../img/arrow.svg") no-repeat center center/contain;
     transition: all .2s ease-in-out;
 }
 
 #nav .nav_wrap .cta:hover::before{
-    background: url("../img/arrow_white.svg")no-repeat center center/contain;
+    background: url("../img/arrow_white.svg") no-repeat center center/contain;
     transition: all .3s ease-in-out;
     right: 2.5rem;
 }
@@ -351,37 +351,25 @@ footer p{
     }
 
     header{
-        padding-top: 0;
+        padding-top: 1.25rem;
         padding-left: 1.25rem;
     }
     
     #hamburger {
-        width: 4.9rem;
-        height: 4rem;
+        width: 1.4rem;
+        height: 1.4rem;
     }
 
     .inner_line{
-        width: 1.4rem;
-    }
-
-    .inner_line::before, .inner_line:after{
-        width: 1.4rem;
-    }
-
-    .inner_line::before{
-        left: -2rem;
-    }
-
-    .inner_line::after{
-        right: -2rem;
+        width: 100%;
     }
 
     .line_1{
-        transform: translate(1rem, 1.7rem) rotate(-45deg);
+        transform: translate(1rem, .65rem) rotate(-45deg);
     }
 
     .line_3 {
-        transform: translate(1rem, .2rem) rotate(45deg);
+        transform: translate(1rem, -.65rem) rotate(45deg);
     }
 
     #nav .nav_wrap{
