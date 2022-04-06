@@ -242,7 +242,7 @@
     font-weight: bold;
     color: #0D1E5F;
     display: none;
-    margin-top: 2rem;
+    margin-top: .5rem;
     transition: all .2s ease-in-out;
 }
 
