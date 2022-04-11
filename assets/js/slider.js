@@ -6,7 +6,7 @@ $('.slider').slick({
     speed: 500,
     pauseOnHover: false,
     pauseOnFocus: false,
-    fade: true,
+    // fade: true,
     cssEase: 'linear',
     dots: true,
 });

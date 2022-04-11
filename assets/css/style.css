@@ -98,6 +98,16 @@
     align-items: flex-end;
     position: relative;
     transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+
+#service .slider .slick-active{
+    opacity: 1;
+}
+
+#service .slider .slide02,#service .slider .slide03{
+    transform: translateY(3rem);
 }
 
 #service .slider .slide::before{
@@ -537,6 +547,11 @@
         position: relative;
         flex-direction: column;
     }
+
+
+#service .slider .slide02,#service .slider .slide03{
+    transform: none;
+}
     
     #service .slider .slide::before{
         display: none;
