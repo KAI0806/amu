@@ -178,7 +178,7 @@
 }
 
 .slick-dots li button:before{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #CBCBCB;
     font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
@@ -199,7 +199,7 @@
 }
 
 .slick-dots li button:after{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #CBCBCB;
     vertical-align: text-bottom;
