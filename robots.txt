@@ -1,0 +1,2 @@
+user-agent: googlebot
+Sitemap: https://amutc.jp/sitemap.xml
